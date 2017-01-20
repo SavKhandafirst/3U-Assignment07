@@ -25,7 +25,7 @@ public class A7Q2 {
         // create an array 
         double[] peopleHeights = new double[numPeople];
 
-        
+
         // set total to 0
         double total = 0;
 

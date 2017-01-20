@@ -39,27 +39,27 @@ public class A7Q4 {
         for (int x = 0; x <= 8; x++) {
             for (int y = x + 1; y <= 9; y++) {
                 // if the x value is greater or equal to y, swap position x and y
-                if (myNums[x] >= myNums[y]) {                                      
+                if (myNums[x] >= myNums[y]) {
                     int higherNum = myNums[x];
                     int lowerNum = myNums[y];
                     myNums[x] = lowerNum;
                     myNums[y] = higherNum;
                 }
                 // if x is less than y, dont swap positions
-                if(myNums[x] < myNums[y]){
+                if (myNums[x] < myNums[y]) {
                     int higherNum = myNums[y];
                     int lowerNum = myNums[x];
                     myNums[x] = lowerNum;
-                    myNums[y] = higherNum;                   
-                }     
+                    myNums[y] = higherNum;
+                }
             }
         }
         // print out the marks from lowest to highest
         System.out.println("The marks from lowest to highest are:");
-        
+
         // make for loop to print out all the marks
-        for(int z = 0; z < myNums.length; z++){
-            System.out.println(myNums[z]);         
+        for (int z = 0; z < myNums.length; z++) {
+            System.out.println(myNums[z]);
         }
     }
 }

@@ -32,12 +32,12 @@ public class A7Q3 {
         if (myNums[0] > myNums[1]) {
             // swap position 0 and position 1
             int firstNum = myNums[1];
-            int secondNum = myNums[0];          
+            int secondNum = myNums[0];
             myNums[1] = firstNum;
             myNums[0] = secondNum;
             // print out in ascending order
             System.out.println("The integers in ascending orders are " + myNums[1] + ", " + myNums[0]);
-        }else{
+        } else {
             // otherwise if myNums 1 is greater than myNums 0
             int firstNum = myNums[0];
             int secondNum = myNums[1];
@@ -46,11 +46,11 @@ public class A7Q3 {
             // print out in ascending order
             System.out.println("The integers in ascending orders are " + myNums[0] + ", " + myNums[1]);
         }
-        
-        
-        
 
-        
+
+
+
+
 
 
 
